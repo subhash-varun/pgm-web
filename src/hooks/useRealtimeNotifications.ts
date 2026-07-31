@@ -24,7 +24,7 @@ export const useRealtimeNotifications = () => {
     }
 
     const client = new Client({
-      brokerURL: 'wss://pgm-backend-latest.onrender.com/ws/websocket',
+      brokerURL: 'wss://https://pgm-backend-1.onrender.com/ws/websocket',
       connectHeaders: {
         Authorization: `Bearer ${token}`,
       },
